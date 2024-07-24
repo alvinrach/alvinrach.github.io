@@ -10,7 +10,7 @@ redirect_from:
 
 ## Work Experience
 
-**Untukmu AI**
+**Untukmu AI**  
 **Machine Learning Engineer**  --- *09/23 – Now*
 - Utilized **LLM Models** to empower AI Chatbot functionality
 - Developed a **Testing Framework** using Streamlit for efficient chatbot testing procedures
@@ -27,7 +27,7 @@ redirect_from:
 - **Tech Stack:** Google Cloud (Compute Engine, Cloud Run, Cloud Storage, Logging Sink, Pub/Sub, Cloud Build and Trigger, Cloud Artifact, Vertex), FastAPI, Flask, HTML-CSS, Docker, ChatGPT, Langchain, Faceswap, Streamlit, HuggingFace, Elasticsearch, Milvus, Polyglot, LM Studio, Autogen
 
 
-**Sinar Mitra Sepadan Finance (Part of Orix Japan and Sinarmas)**
+**Sinar Mitra Sepadan Finance (Part of Orix Japan and Sinarmas)**  
 **Data Scientist**  --- *05/22 – 09/23*
 - Developed **credit scoring models** in collaboration with cross-functional teams, including BOD members, credit analysts, product manager, data engineer, data scientist, and backend engineer
 - **Presented** credit scoring model results to BODs from Japan & Indonesia in English on a monthly basis
@@ -40,7 +40,7 @@ redirect_from:
 - Demonstrated proficiency in **Microsoft SQL** & familiarity with **Postgres** for daily database operations
 
 
-**Smart City & Community Innovation Center ITB**
+**Smart City & Community Innovation Center ITB**  
 **Data Scientist**   --- *08/21 – 05/22*
 - Conducted gap analysis & developed a **churn prediction model** for Jasa Raharja that classified insurance arrears and predicted whether someone would be late to pay SWDKLLJ. This project involved working with approximately 6.5 million data points & utilizing the **CRISP-DM** methodology
 - Provided assistance to a doctoral student on a paper related to anomaly detection and forecasting in IoT smart-farming sensors using the GRU auto-encoder algorithm in **TensorFlow (neural networks)**
@@ -52,7 +52,7 @@ redirect_from:
 - Doing **Prompt Engineering** for Bahasa Indonesia
 - Developed a **Testing Framework** using Streamlit for efficient chatbot testing procedures
 
-**Geo-Data Scientist, Travelling Salesman Problem, FMCG company** --- *5 Months, 2023*
+**Geo-Data Scientist, Travelling Salesman Problem, FMCG company** --- *8 Months, 2023*
 
 - Solved **Travelling Salesman Problem** to efficiently assign sales visit sequence
 - Used Jupyter Notebook, OSRM, Python, Folium, Google Maps
@@ -71,36 +71,36 @@ redirect_from:
 
 ## Data Related Activities
 
-**Indosat Ooredoo Camp (Idcamp)** --- *2021*
+**Indosat Ooredoo Camp (Idcamp)** --- *2021*  
 Machine Learning (Expert Stage) (Dicoding ML 5)
 
-**FGA Digital Talent Scholarship** --- *2021*
+**FGA Digital Talent Scholarship** --- *2021*  
 IBM Machine Learning by Ministry of Communication and Information Technology of the Republic of Indonesia (Dicoding ML 1,2,3,4, IBM, Helsinki University course, etc)
 
-**AI Planet** --- *2021*
+**AI Planet** --- *2021*  
 [Data Science (Big Three Accuracy in the final assignment as a datathon) (leaderboard id: alvinrach)](https://aiplanet.com/challenges/74/getting-started-with-data-science-bootcamp-final-assignment-74/leaderboard/practice)
 
-**AI Planet** --- *2021*
+**AI Planet** --- *2021*  
 [Deep Learning (First Place in the final assignment as a datathon)](https://aiplanet.com/challenges/144/gender-determination-by-morphometry-of-eyes-144/leaderboard/practice)
 
 
 ## Education
 
-**Bandung Institute of Technology**
+**Bandung Institute of Technology**  
 Bioenergy and Chemurgical Engineering (Chemical Engineering)  --- *08/15 – 10/19*
 - Relevant Courseworks: Engineering Statistics (also as Tutor), Chemical Process Computation, Introduction to Information Technology
 
 
 ## Self Projects
 
-[**Walmart Stock Prediction with ~0.45% MAE error (Forecasting Problem using Neural Network)**](https://github.com/alvinrach/25-Time_Series-Stock_Prediction)
+[**Walmart Stock Prediction with ~0.45% MAE error (Forecasting Problem using Neural Network)**](https://github.com/alvinrach/25-Time_Series-Stock_Prediction)  
 [**Car Insurance Sales Prediction (Classification using XGBoost) (3rd accuracy on DPhi bootcamp leaderboard’s Notebook)**](https://github.com/alvinrach/21-Car-Insurance-Sales-Prediction)
 
 
 ## Leadership Activity
 
-**Bioenergy and Chemurgy Eng. Student Association**
+**Bioenergy and Chemurgy Eng. Student Association**  
 Head of Professionalism Division - *01/17 – 12/17*
 
 ---
-v4.31 | 22 July 24
+v4.32 | 22 July 24
