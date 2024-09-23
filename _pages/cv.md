@@ -20,11 +20,13 @@ redirect_from:
 - Doing **Prompt Engineering** for Bahasa Indonesia and English
 - **Utilization of Social Media API** and involvement in Generative AI
 - **Ultra-fast development** for prototyping to investors (web dashboard and usability of the LLM apps)
-- **Fine-tuning LLM** to a dataset to match the question we want (BERT, LLaMa)
+- **Training/Fine-tuning LLM** to a dataset to match the question we want (BERT, LLaMa)
 - **Local/on-premise** LLM Model by using LM Studio
+- Handling various paid models/API such as **OpenAI API, Gemini API, & Huggingface API**
+- Experienced in handle several **chatbot model migration** because of model expiration
 - **Agentic LLM** to generate and execute code solely using LLM prompt Autogen
-- Non-LLM: Established a **faceswap technology** by utilizing cutting-edge libraries and packages
-- **Tech Stack:** Google Cloud (Compute Engine, Cloud Run, Cloud Storage, Logging Sink, Pub/Sub, Cloud Build and Trigger, Cloud Artifact, Vertex), FastAPI, Flask, HTML-CSS, Docker, ChatGPT, Langchain, Faceswap, Streamlit, HuggingFace, Elasticsearch, Milvus, Polyglot, LM Studio, Autogen
+- Deploy **faceswap technology** using open source packages
+- **Tech Stack:** Google Cloud (Compute Engine, Cloud Run, Cloud Storage, Logging Sink, Pub/Sub, Cloud Build and Trigger, Cloud Artifact, Vertex), Microsoft Azure, FastAPI, Flask, HTML-CSS, Docker, OpenAI (Text Generation, Image Generation, Embeddings), Langchain, Faceswap, Streamlit, HuggingFace, ElasticSearch, Milvus, Polyglot, LM Studio, Autogen, Gemini
 
 
 **Sinar Mitra Sepadan Finance (Part of Orix Japan and Sinarmas)**  
@@ -46,6 +48,16 @@ redirect_from:
 - Provided assistance to a doctoral student on a paper related to anomaly detection and forecasting in IoT smart-farming sensors using the GRU auto-encoder algorithm in **TensorFlow (neural networks)**
 
 ## Side Projects
+
+**AI Engineer, Chatbot & Agent Development, EventCHI** --- *2 Month, 2024*
+
+- Develop, propose and discuss **Chatbot Architecture** with Team
+- Developing chatbot using Agentic Frameworks such as **langgraph, autogen, crewAI**
+- Handle all deployment of AI side on **Google Cloud Platform (Cloud Run, Kubernetes Engine, CDN on Google Cloud Storage) & Microsoft Azure (OpenAI models)**
+- Develop API using HTTP and **WebSocket Architecture**
+- Develop simple **front end** (HTML-CSS-JS) script for **chatbot demonstration**
+- **Flux image generation** prompting and integration
+- Deploy **image background removal** technology using open source packages
 
 **Machine Learning Engineer, Untukmu AI** --- *1 Month, 2023*
 
@@ -70,6 +82,12 @@ redirect_from:
 - Delivered **MVP of app in 2 weeks (algorithm + front end)**
 
 ## Data Related Activities
+
+**AI Planet** --- *2024*  
+RAG and Agents Bootcamp
+- Vector databases operation with **chromadb**
+- Build RAG framework with **llamaIndex, langchain, beyondllm**
+- Build agentic chatbot with **autogen, crewAI, openAGI**
 
 **Indosat Ooredoo Camp (Idcamp)** --- *2021*  
 Machine Learning (Expert Stage) (Dicoding ML 5)
@@ -103,4 +121,4 @@ Bioenergy and Chemurgical Engineering (Chemical Engineering)  --- *08/15 – 10/
 Head of Professionalism Division - *01/17 – 12/17*
 
 ---
-v4.32 | 22 July 24
+v4.33 | 23 September 24
