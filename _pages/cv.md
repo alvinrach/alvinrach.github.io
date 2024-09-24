@@ -84,7 +84,7 @@ redirect_from:
 ## Data Related Activities
 
 **AI Planet** --- *2024*  
-RAG and Agents Bootcamp
+[RAG and Agents Bootcamp](https://aiplanet.com/bootcamp/certificate/download/102ac4f6-9516-420a-972b-698616b71bdc/)
 - Vector databases operation with **chromadb**
 - Build RAG framework with **llamaIndex, langchain, beyondllm**
 - Build agentic chatbot with **autogen, crewAI, openAGI**
@@ -121,4 +121,4 @@ Bioenergy and Chemurgical Engineering (Chemical Engineering)  --- *08/15 – 10/
 Head of Professionalism Division - *01/17 – 12/17*
 
 ---
-v4.33 | 23 September 24
+v4.34 | 24 September 24
