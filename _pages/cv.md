@@ -26,7 +26,9 @@ redirect_from:
 - Experienced in handle several **chatbot model migration** because of model expiration
 - **Agentic LLM** to generate and execute code solely using LLM prompt Autogen
 - Deploy **faceswap technology** using open source packages
-- **Tech Stack:** Google Cloud (Compute Engine, Cloud Run, Cloud Storage, Logging Sink, Pub/Sub, Cloud Build and Trigger, Cloud Artifact, Vertex), Microsoft Azure, FastAPI, Flask, HTML-CSS, Docker, OpenAI (Text Generation, Image Generation, Embeddings), Langchain, Faceswap, Streamlit, HuggingFace, ElasticSearch, Milvus, Polyglot, LM Studio, Autogen, Gemini
+- Develop **Telegram bot**
+- Become **AI team PIC**: Manage AI team, arrange and handle interview, weekly planning, weekly report
+- **Tech Stack:** Google Cloud (Compute Engine, Cloud Run, Cloud Storage, Logging Sink, Pub/Sub, Cloud Build and Trigger, Cloud Artifact, Vertex), Microsoft Azure, FastAPI, Flask, HTML-CSS, Docker, OpenAI (Text Generation, Image Generation, Embeddings), Langchain, Faceswap, Streamlit, HuggingFace, ElasticSearch, Milvus, Polyglot, LM Studio, Autogen, Gemini, Telebot
 
 
 **Sinar Mitra Sepadan Finance (Part of Orix Japan and Sinarmas)**  
@@ -55,9 +57,12 @@ redirect_from:
 - Developing chatbot using Agentic Frameworks such as **langgraph, autogen, crewAI**
 - Handle all deployment of AI side on **Google Cloud Platform (Cloud Run, Kubernetes Engine, CDN on Google Cloud Storage) & Microsoft Azure (OpenAI models)**
 - Develop API using HTTP and **WebSocket Architecture**
+- Handle **CI/CD** for AI chatbot product
 - Develop simple **front end** (HTML-CSS-JS) script for **chatbot demonstration**
 - **Flux image generation** prompting and integration
 - Deploy **image background removal** technology using open source packages
+- Image-related operation using **PIL/Pillow** library
+- **Redis** database operation
 
 **Machine Learning Engineer, Untukmu AI** --- *1 Month, 2023*
 
@@ -121,4 +126,4 @@ Bioenergy and Chemurgical Engineering (Chemical Engineering)  --- *08/15 – 10/
 Head of Professionalism Division - *01/17 – 12/17*
 
 ---
-v4.34 | 24 September 24
+v4.4 | 08 October 24
