@@ -1,5 +1,12 @@
 import { ProfileSidebar } from "@/components/profile-sidebar"
 import { BlogPost } from "@/components/blog-post"
+import { blogContent } from "@/lib/blog-data"
+
+export async function generateStaticParams() {
+  return Object.keys(blogContent).map((slug) => ({
+    slug: slug,
+  }))
+}
 
 interface BlogPostPageProps {
   params: {
