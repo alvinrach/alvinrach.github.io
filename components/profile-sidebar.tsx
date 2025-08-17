@@ -89,7 +89,11 @@ export function ProfileSidebar() {
 
       {/* Download CV Button */}
       <Button className="w-full" asChild>
-        <Link href="/resume.pdf" target="_blank">
+        <Link 
+          href="https://drive.google.com/uc?export=download&id=1heHiOwb9_Lt032UKHqBmx_rzcneX4zGy" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Download className="w-4 h-4 mr-2" />
           Download CV
         </Link>
