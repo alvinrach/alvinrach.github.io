@@ -1,0 +1,86 @@
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Calendar, ArrowRight } from "lucide-react"
+import Link from "next/link"
+
+const blogPosts = [
+  {
+    slug: "hybrid-search-elasticsearch-milvus-chromadb",
+    title: "Hybrid Search with ElasticSearch + Milvus + ChromaDB",
+    excerpt:
+      "Explore the importance of establishing a strong online presence for full stack developers. Learn how to create a compelling portfolio, engage with the developer community, and leverage social media to boost your career.",
+    date: "February 22, 2024",
+    tags: ["AI/ML", "Search", "Vector DB"],
+    image: "/hybrid-search.png",
+  },
+  {
+    slug: "building-agentic-ai-chatbots-autogen",
+    title: "Building Agentic AI Chatbots with Autogen",
+    excerpt:
+      "Prepare for success in your full stack developer job interviews. Uncover common interview questions, tips for showcasing your problem-solving skills, and strategies for handling technical assessments.",
+    date: "February 15, 2024",
+    tags: ["AI Agents", "Chatbots", "LLM"],
+    image: "/ai-chatbot-interface.png",
+  },
+  {
+    slug: "deploying-ai-gcp-cicd",
+    title: "Deploying AI on GCP with CI/CD",
+    excerpt:
+      "Explore the art of writing compelling cover letters for full stack developer positions. Learn how to tailor your cover letter to showcase your technical prowess and demonstrate your passion for coding.",
+    date: "February 8, 2024",
+    tags: ["Cloud", "DevOps", "GCP"],
+    image: "/cloud-deployment-dashboard.png",
+  },
+  {
+    slug: "llm-fine-tuning-best-practices",
+    title: "LLM Fine-tuning Best Practices",
+    excerpt:
+      "Learn the essential elements to include in your full stack developer resume for a stand-out application. Nail down the perfect balance between showcasing skills and work experience.",
+    date: "February 1, 2024",
+    tags: ["LLM", "Fine-tuning", "AI/ML"],
+    image: "/machine-learning-training.png",
+  },
+]
+
+export function BlogGrid() {
+  return (
+    <div className="space-y-6">
+      {blogPosts.map((post) => (
+        <article key={post.slug} className="bg-gray-50 rounded-xl p-6 border hover:shadow-md transition-shadow">
+          <div className="flex flex-col lg:flex-row gap-6">
+            <div className="lg:w-1/3">
+              <img
+                src={post.image || "/placeholder.svg"}
+                alt={post.title}
+                className="w-full h-48 lg:h-32 object-cover rounded-lg"
+              />
+            </div>
+            <div className="lg:w-2/3">
+              <div className="flex items-center text-sm text-gray-500 mb-2">
+                <Calendar className="w-4 h-4 mr-1" />
+                {post.date}
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2 text-lg">{post.title}</h3>
+              <p className="text-gray-600 text-sm mb-4 leading-relaxed">{post.excerpt}</p>
+              <div className="flex items-center justify-between">
+                <div className="flex gap-2">
+                  {post.tags.map((tag) => (
+                    <Badge key={tag} variant="secondary" className="text-xs">
+                      {tag}
+                    </Badge>
+                  ))}
+                </div>
+                <Button size="sm" variant="ghost" asChild>
+                  <Link href={`/blog/${post.slug}`}>
+                    Read more
+                    <ArrowRight className="w-4 h-4 ml-1" />
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  )
+}
