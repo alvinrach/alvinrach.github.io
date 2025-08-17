@@ -10,16 +10,20 @@ export const portfolioData = {
     website: "https://alvinrach.github.io",
   },
   about:
-    "Machine Learning Engineer with strong experience in AI chatbots, LLM fine-tuning, data science, and cloud deployment. Passionate about building scalable AI platforms and intelligent systems.",
+    "Machine Learning Engineer with strong experience in AI chatbots, LLM fine-tuning, financial & forecasting data science, & cloud deployment. Passionate about building scalable AI platforms and intelligent systems as well as the data analytics.",
   skills: [
     "AI Agents",
     "LLM",
     "Generative AI",
     "Cloud (GCP, Azure)",
     "Docker",
+    "Financial Data Science",
+    "Pandas",
+    "Scikit Learn",
     "FastAPI",
     "NodeJS",
     "LangChain",
+    "LangGraph",
     "HuggingFace",
     "ElasticSearch",
     "Milvus",
@@ -36,9 +40,25 @@ export const portfolioData = {
       role: "Machine Learning Engineer",
       dates: "09/23 – Now",
       details: [
-        "Built AI chatbots, LLM fine-tuning, hybrid search with ElasticSearch+Milvus+ChromaDB",
-        "Managed GCP ops, CI/CD, concurrency optimization, AI testing frameworks",
-        "Worked on Agentic LLM frameworks (Autogen, Eliza), faceswap, Telegram bots",
+        "Developed AI chatbots with LLMs, including fine-tuning BERT and LLaMA for domain-specific tasks",
+        "Created and deployed an AI Testing Framework in Streamlit to validate chatbot responses efficiently",
+        "Engineered hybrid semantic search using ElasticSearch, Milvus, and ChromaDB",
+        "Optimized cloud operations on GCP with CI/CD pipelines, serverless deployments, & concurrency improvements",
+        "Explored agentic LLM frameworks (Autogen, Eliza) to automate code execution & blockchain-social integrations",
+        "Led the AI team: managed daily operations, mentored juniors, & handled model/API migrations across OpenAI, Gemini, HuggingFace"
+      ],
+    },
+    {
+      "company": "EventCHI (Dutch-based event-tech startup)",
+      "role": "AI Engineer – Chatbot & Agent Development",
+      "dates": "08/24 – 11/24",
+      "details": [
+        "Designed and discussed chatbot architecture with team members",
+        "Developed chatbots using agentic frameworks such as LangGraph, Autogen, & crewAI",
+        "Deployed AI components on Google Cloud (Cloud Run, Kubernetes Engine, Cloud Storage CDN) & Microsoft Azure (OpenAI models)",
+        "Implemented APIs with both HTTP & WebSocket architectures, enable real-time chatbot communication",
+        "Built CI/CD pipelines for AI chatbot product deployment & created simple HTML-CSS-JS demo frontend",
+        "Integrated flux-based image generation, background removal with Rembg/PIL, Redis caching, & asynchronous multi-image load-save (90% faster upload)"
       ],
     },
     {
@@ -46,9 +66,12 @@ export const portfolioData = {
       role: "Data Scientist",
       dates: "05/22 – 09/23",
       details: [
-        "Developed credit scoring models, presented to BODs",
-        "Created collection models and dashboards (Streamlit/Voila/Metabase)",
-        "Utilized SQL, FastAPI, Docker, DataRobot automation",
+        "Developed and presented credit scoring models to Japanese and Indonesian BODs monthly",
+        "Built predictive collection models to identify high-risk customers, improving repayment forecasting",
+        "Automated dashboards with Streamlit, Voila, and Metabase to track KPIs such as sales efficiency",
+        "Implemented DataRobot-based ML pipelines with third-party vendors for automated model deployment",
+        "Deployed scalable APIs for scoring using FastAPI and Docker frameworks",
+        "Maintained SQL and Postgres databases for data pipelines, ensuring reliability and accuracy"
       ],
     },
     {
@@ -56,8 +79,8 @@ export const portfolioData = {
       role: "Data Scientist",
       dates: "08/21 – 05/22",
       details: [
-        "Churn prediction (6.5M records) for Jasa Raharja",
-        "Worked on IoT anomaly detection using GRU autoencoder in TensorFlow",
+        "Built a churn prediction model for Jasa Raharja using 6.5M+ records under CRISP-DM methodology to predict insurance arrears and payment delays",
+        "Collaborated on IoT anomaly detection and forecasting research using GRU autoencoders for smart-farming sensors"
       ],
     },
   ],
@@ -110,7 +133,7 @@ export const portfolioData = {
     "AI Planet – RAG & Agents Bootcamp (2024)",
     "IdCamp (Indosat Ooredoo) – Machine Learning Expert (2021)",
     "FGA Digital Talent Scholarship – IBM Machine Learning (2021)",
-    "AI Planet – Data Science Bootcamp (2021)",
+    "AI Planet – Data Science Bootcamp (3rd place, 2021)",
     "AI Planet – Deep Learning Bootcamp (1st place, 2021)",
   ],
   leadership: [

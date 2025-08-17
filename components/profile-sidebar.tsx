@@ -95,7 +95,7 @@ export function ProfileSidebar() {
           rel="noopener noreferrer"
         >
           <Download className="w-4 h-4 mr-2" />
-          Download CV
+          Download Full CV
         </Link>
       </Button>
 
