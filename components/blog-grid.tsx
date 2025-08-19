@@ -5,6 +5,24 @@ import Link from "next/link"
 
 const blogPosts = [
   {
+    slug: "from-jupyter-to-production",
+    title: "From Jupyter to Production: How to Use Classes and Packages for Data Science Projects",
+    excerpt:
+      "Discover best practices for structuring your data science code, organizing reusable components, and transitioning smoothly from experimentation in notebooks to scalable, maintainable production systems.",
+    date: "March 23, 2023",
+    tags: ["Notebook", "Data Science", "Python"],
+    image: "/notebook-class.png",
+  },
+  {
+    slug: "why-ai-would-never-eliminate-any-job",
+    title: "Why AI Would Never Eliminate Any Job",
+    excerpt:
+      "Understand why artificial intelligence is more likely to transform the way we work, creating new opportunities and redefining roles, rather than completely eliminating human jobs.",
+    date: "March 4, 2023",
+    tags: ["Future of Work", "AI and Jobs", "Career Development"],
+    image: "/ai-never-replace.png",
+  },
+  {
     slug: "hybrid-search-elasticsearch-milvus-chromadb",
     title: "Hybrid Search with ElasticSearch + Milvus + ChromaDB",
     excerpt:
