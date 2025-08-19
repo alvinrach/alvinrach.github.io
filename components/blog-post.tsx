@@ -67,7 +67,7 @@ export function BlogPost({ slug }: BlogPostProps) {
         </div>
 
         {/* Content */}
-        <div className="prose prose-gray max-w-none" dangerouslySetInnerHTML={{ __html: post.content }} />
+        <div className="blog-content max-w-none" dangerouslySetInnerHTML={{ __html: post.content }} />
 
         {/* Navigation */}
         <div className="flex justify-between items-center mt-8 pt-6 border-t">
