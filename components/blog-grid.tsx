@@ -64,7 +64,10 @@ export function BlogGrid() {
   return (
     <div className="space-y-6">
       {blogPosts.map((post) => (
-        <article key={post.slug} className="bg-gray-50 rounded-xl p-6 border hover:shadow-md transition-shadow">
+        <article
+          key={post.slug}
+          className="bg-gray-50 rounded-xl p-6 border hover:shadow-md transition-shadow w-full max-w-2xl min-w-[280px] mx-auto"
+        >
           <div className="flex flex-col lg:flex-row gap-6">
             <div className="lg:w-1/3">
               <img
