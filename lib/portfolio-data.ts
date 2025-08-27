@@ -7,7 +7,7 @@ export const portfolioData = {
     email: "alvinracht@gmail.com",
     linkedin: "https://www.linkedin.com/in/alvin-rachmat",
     github: "https://github.com/alvinrach",
-    website: "https://alvinrach.github.io",
+    // website: "https://alvinrach.github.io",
   },
   about:
     "Machine Learning Engineer with strong experience in AI chatbots, LLM fine-tuning, financial & forecasting data science, & cloud deployment. Passionate about building scalable AI platforms and intelligent systems as well as the data analytics.",

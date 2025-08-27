@@ -76,14 +76,14 @@ export function ProfileSidebar() {
             <Github className="w-4 h-4 mr-2" />
             GitHub
           </Link>
-          <Link
+          {/* <Link
             href={portfolioData.contact.website}
             target="_blank"
             className="flex items-center text-gray-600 hover:text-blue-600 text-sm"
           >
             <Globe className="w-4 h-4 mr-2" />
             Website
-          </Link>
+          </Link> */}
         </div>
       </div>
 
