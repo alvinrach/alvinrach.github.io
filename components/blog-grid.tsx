@@ -80,8 +80,8 @@ export function BlogGrid() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2 text-lg">{post.title}</h3>
               <p className="text-gray-600 text-sm mb-4 leading-relaxed">{post.excerpt}</p>
-              <div className="flex items-center justify-between">
-                <div className="flex gap-2">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+                <div className="flex gap-2 flex-wrap">
                   {post.tags.map((tag) => (
                     <Badge key={tag} variant="secondary" className="text-xs">
                       {tag}
