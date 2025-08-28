@@ -33,30 +33,20 @@ export const blogContent: Record<string, any> = {
       </p>
     `,
   },
-  "hybrid-search-elasticsearch-milvus-chromadb": {
-    title: "Hybrid Search with ElasticSearch + Milvus + ChromaDB",
-    date: "February 22, 2024",
+  "hybrid-search-elasticsearch-milvus": {
+    title: "Building Hybrid Search with ElasticSearch & Milvus",
+    date: "August 28, 2025",
     tags: ["AI/ML", "Search", "Vector DB"],
     image: "/hybrid-search-architecture.png",
     content: `
       <p>In today's AI-driven world, building effective search systems requires combining the best of traditional keyword search with modern vector similarity search. This comprehensive guide explores how to implement a hybrid search system using ElasticSearch, Milvus, and ChromaDB.</p>
       
       <h2>Understanding Hybrid Search</h2>
-      <p>Hybrid search combines lexical search (keyword matching) with semantic search (vector similarity) to provide more accurate and contextually relevant results. This approach is particularly powerful for AI applications where understanding user intent is crucial.</p>
+      <p>Hybrid search combines lexical search (keyword matching) with semantic search (vector similarity) to provide more accurate and contextually relevant results. This approach is particularly powerful for AI applications where understanding user intent is crucial. Basically, the principle is:</p>
       
-      <h2>Architecture Overview</h2>
-      <p>Our hybrid search system leverages:</p>
-      <ul>
-        <li><strong>ElasticSearch</strong> - For fast keyword-based search and filtering</li>
-        <li><strong>Milvus</strong> - For high-performance vector similarity search</li>
-        <li><strong>ChromaDB</strong> - For embedding storage and retrieval</li>
-      </ul>
-      
-      <h2>Implementation Details</h2>
-      <p>The implementation involves setting up each component and creating a unified search interface that can query multiple backends and merge results based on relevance scores.</p>
-      
-      <h2>Performance Optimization</h2>
-      <p>Key optimization strategies include proper indexing, result caching, and intelligent query routing based on query characteristics.</p>
+      <p>
+         <a href="https://medium.com/@alvinrach/building-hybrid-search-with-elasticsearch-milvus-f5e18c6325c1" style="color: blue;">Read More</a>
+      </p>
     `,
   },
   "building-agentic-ai-chatbots-autogen": {

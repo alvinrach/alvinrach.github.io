@@ -23,11 +23,11 @@ const blogPosts = [
     image: "/ai-never-replace.png",
   },
   {
-    slug: "hybrid-search-elasticsearch-milvus-chromadb",
-    title: "Hybrid Search with ElasticSearch + Milvus + ChromaDB",
+    slug: "hybrid-search-elasticsearch-milvus",
+    title: "Building Hybrid Search with ElasticSearch & Milvus",
     excerpt:
       "Explore the importance of establishing a strong online presence for full stack developers. Learn how to create a compelling portfolio, engage with the developer community, and leverage social media to boost your career.",
-    date: "February 22, 2024",
+    date: "August 28, 2025",
     tags: ["AI/ML", "Search", "Vector DB"],
     image: "/hybrid-search.png",
   },
