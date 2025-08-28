@@ -5,6 +5,15 @@ import Link from "next/link"
 
 const blogPosts = [
   {
+    slug: "hybrid-search-elasticsearch-milvus",
+    title: "Building Hybrid Search with ElasticSearch & Milvus",
+    excerpt:
+      "Explore the importance of establishing a strong online presence for full stack developers. Learn how to create a compelling portfolio, engage with the developer community, and leverage social media to boost your career.",
+    date: "August 28, 2025",
+    tags: ["AI/ML", "Search", "Vector DB"],
+    image: "/hybrid-search.png",
+  },
+  {
     slug: "from-jupyter-to-production",
     title: "From Jupyter to Production: How to Use Classes and Packages for Data Science Projects",
     excerpt:
@@ -21,15 +30,6 @@ const blogPosts = [
     date: "March 4, 2023",
     tags: ["Future of Work", "AI and Jobs", "Career Development"],
     image: "/ai-never-replace.png",
-  },
-  {
-    slug: "hybrid-search-elasticsearch-milvus",
-    title: "Building Hybrid Search with ElasticSearch & Milvus",
-    excerpt:
-      "Explore the importance of establishing a strong online presence for full stack developers. Learn how to create a compelling portfolio, engage with the developer community, and leverage social media to boost your career.",
-    date: "August 28, 2025",
-    tags: ["AI/ML", "Search", "Vector DB"],
-    image: "/hybrid-search.png",
   },
   {
     slug: "building-agentic-ai-chatbots-autogen",

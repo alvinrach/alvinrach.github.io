@@ -1,4 +1,20 @@
 export const blogContent: Record<string, any> = {
+  "hybrid-search-elasticsearch-milvus": {
+    title: "Building Hybrid Search with ElasticSearch & Milvus",
+    date: "August 28, 2025",
+    tags: ["AI/ML", "Search", "Vector DB"],
+    image: "/hybrid-search-architecture.png",
+    content: `
+      <p>In today's AI-driven world, building effective search systems requires combining the best of traditional keyword search with modern vector similarity search. This comprehensive guide explores how to implement a hybrid search system using ElasticSearch, Milvus, and ChromaDB.</p>
+      
+      <h2>Understanding Hybrid Search</h2>
+      <p>Hybrid search combines lexical search (keyword matching) with semantic search (vector similarity) to provide more accurate and contextually relevant results. This approach is particularly powerful for AI applications where understanding user intent is crucial. Basically, the principle is:</p>
+      
+      <p>
+         <a href="https://medium.com/@alvinrach/building-hybrid-search-with-elasticsearch-milvus-f5e18c6325c1" style="color: blue;">Read More</a>
+      </p>
+    `,
+  },
   "from-jupyter-to-production": {
     title: "From Jupyter to Production: How to Use Classes and Packages for Data Science Projects",
     date: "March 23, 2023",
@@ -30,22 +46,6 @@ export const blogContent: Record<string, any> = {
 
       <p>
          <a href="https://medium.com/@alvinrach/why-ai-would-never-eliminate-any-job-755ca309f489" style="color: blue;">Read More</a>
-      </p>
-    `,
-  },
-  "hybrid-search-elasticsearch-milvus": {
-    title: "Building Hybrid Search with ElasticSearch & Milvus",
-    date: "August 28, 2025",
-    tags: ["AI/ML", "Search", "Vector DB"],
-    image: "/hybrid-search-architecture.png",
-    content: `
-      <p>In today's AI-driven world, building effective search systems requires combining the best of traditional keyword search with modern vector similarity search. This comprehensive guide explores how to implement a hybrid search system using ElasticSearch, Milvus, and ChromaDB.</p>
-      
-      <h2>Understanding Hybrid Search</h2>
-      <p>Hybrid search combines lexical search (keyword matching) with semantic search (vector similarity) to provide more accurate and contextually relevant results. This approach is particularly powerful for AI applications where understanding user intent is crucial. Basically, the principle is:</p>
-      
-      <p>
-         <a href="https://medium.com/@alvinrach/building-hybrid-search-with-elasticsearch-milvus-f5e18c6325c1" style="color: blue;">Read More</a>
       </p>
     `,
   },
