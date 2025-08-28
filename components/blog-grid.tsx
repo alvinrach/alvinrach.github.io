@@ -8,7 +8,7 @@ const blogPosts = [
     slug: "hybrid-search-elasticsearch-milvus",
     title: "Building Hybrid Search with ElasticSearch & Milvus",
     excerpt:
-      "Explore the importance of establishing a strong online presence for full stack developers. Learn how to create a compelling portfolio, engage with the developer community, and leverage social media to boost your career.",
+      "Learn how to combine vector and keyword search to deliver more accurate and efficient retrieval systems, and understand why hybrid approaches are becoming essential in modern data-driven applications.",
     date: "August 28, 2025",
     tags: ["AI/ML", "Search", "Vector DB"],
     image: "/hybrid-search.png",
