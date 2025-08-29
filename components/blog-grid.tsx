@@ -32,10 +32,10 @@ const blogPosts = [
     image: "/ai-never-replace.png",
   },
   {
-    slug: "building-agentic-ai-chatbots-autogen",
-    title: "Building Agentic AI Chatbots with Autogen",
+    slug: "building-agentic-ai-chatbots-langgraph",
+    title: "Building Agentic AI Chatbots with LangGraph",
     excerpt:
-      "Prepare for success in your full stack developer job interviews. Uncover common interview questions, tips for showcasing your problem-solving skills, and strategies for handling technical assessments.",
+      "Discover how to design intelligent chatbots that can reason, generate, and execute tasks autonomously using LangGraph, enabling more dynamic and practical AI applications.",
     date: "February 15, 2024",
     tags: ["AI Agents", "Chatbots", "LLM"],
     image: "/ai-chatbot-interface.png",

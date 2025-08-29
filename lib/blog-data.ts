@@ -49,19 +49,19 @@ export const blogContent: Record<string, any> = {
       </p>
     `,
   },
-  "building-agentic-ai-chatbots-autogen": {
-    title: "Building Agentic AI Chatbots with Autogen",
+  "building-agentic-ai-chatbots-langgraph": {
+    title: "Building Agentic AI Chatbots with LangGraph",
     date: "February 15, 2024",
     tags: ["AI Agents", "Chatbots", "LLM"],
     image: "/ai-conversation-flow.png",
     content: `
-      <p>Agentic AI represents the next evolution in chatbot technology, where AI systems can reason, plan, and execute complex tasks autonomously. This guide explores building sophisticated AI agents using Microsoft's Autogen framework.</p>
+      <p>Agentic AI represents the next evolution in chatbot technology, where AI systems can reason, plan, and execute complex tasks autonomously. This guide explores building sophisticated AI agents using LangGraph framework.</p>
       
       <h2>What are AI Agents?</h2>
       <p>AI agents are autonomous systems that can perceive their environment, make decisions, and take actions to achieve specific goals. Unlike traditional chatbots, they can engage in multi-turn conversations and execute complex workflows.</p>
       
-      <h2>Autogen Framework</h2>
-      <p>Autogen provides a powerful framework for creating multi-agent conversations where different AI agents can collaborate to solve complex problems.</p>
+      <h2>LangGraph Framework</h2>
+      <p>LangGraph provides a powerful framework for creating multi-agent conversations where different AI agents can collaborate to solve complex problems.</p>
       
       <h2>Building Your First Agent</h2>
       <p>We'll walk through creating a simple agent that can handle customer service inquiries, escalate to human agents when needed, and maintain conversation context.</p>
