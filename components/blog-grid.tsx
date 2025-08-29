@@ -44,7 +44,7 @@ const blogPosts = [
     slug: "deploying-ai-gcp-cicd",
     title: "Deploying AI on GCP with CI/CD",
     excerpt:
-      "Explore the art of writing compelling cover letters for full stack developer positions. Learn how to tailor your cover letter to showcase your technical prowess and demonstrate your passion for coding.",
+      "Learn how to automate model deployment on Google Cloud Platform using CI/CD pipelines, ensuring faster iteration, reliability, and scalability for your AI applications.",
     date: "February 8, 2024",
     tags: ["Cloud", "DevOps", "GCP"],
     image: "/cloud-deployment-dashboard.png",
@@ -53,7 +53,7 @@ const blogPosts = [
     slug: "llm-fine-tuning-best-practices",
     title: "LLM Fine-tuning Best Practices",
     excerpt:
-      "Learn the essential elements to include in your full stack developer resume for a stand-out application. Nail down the perfect balance between showcasing skills and work experience.",
+      "Explore effective strategies for preparing datasets, choosing the right parameters, and optimizing large language models to achieve reliable, high-quality results in real-world applications.",
     date: "February 1, 2024",
     tags: ["LLM", "Fine-tuning", "AI/ML"],
     image: "/machine-learning-training.png",
