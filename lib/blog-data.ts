@@ -1,4 +1,19 @@
 export const blogContent: Record<string, any> = {
+  "building-agentic-ai-chatbots-langgraph": {
+    title: "Building Agentic AI Chatbots with LangGraph",
+    date: "August 31, 2025",
+    tags: ["AI Agents", "Chatbots", "LLM"],
+    image: "/ai-conversation-flow.png",
+    content: `
+      <p>Agentic AI marks the next stage in chatbot development — where systems go beyond simple responses to reason, plan, and carry out complex tasks autonomously. This guide walks through how to build intelligent, task-oriented agents using the LangGraph framework.</p>
+      
+      <p>In this article we will explore the foundational things need to know about building agentic AI chatbots with LangGraph. It will be continously updated by involving a real use case in near time.</p>
+      
+      <p>
+         <a href="https://medium.com/@alvinrach/building-agentic-ai-chatbots-with-langgraph-430e59c8426b" style="color: blue;">Read More</a>
+      </p>
+    `,
+  },
   "hybrid-search-elasticsearch-milvus": {
     title: "Building Hybrid Search with ElasticSearch & Milvus",
     date: "August 28, 2025",
@@ -47,24 +62,6 @@ export const blogContent: Record<string, any> = {
       <p>
          <a href="https://medium.com/@alvinrach/why-ai-would-never-eliminate-any-job-755ca309f489" style="color: blue;">Read More</a>
       </p>
-    `,
-  },
-  "building-agentic-ai-chatbots-langgraph": {
-    title: "Building Agentic AI Chatbots with LangGraph",
-    date: "February 15, 2024",
-    tags: ["AI Agents", "Chatbots", "LLM"],
-    image: "/ai-conversation-flow.png",
-    content: `
-      <p>Agentic AI represents the next evolution in chatbot technology, where AI systems can reason, plan, and execute complex tasks autonomously. This guide explores building sophisticated AI agents using LangGraph framework.</p>
-      
-      <h2>What are AI Agents?</h2>
-      <p>AI agents are autonomous systems that can perceive their environment, make decisions, and take actions to achieve specific goals. Unlike traditional chatbots, they can engage in multi-turn conversations and execute complex workflows.</p>
-      
-      <h2>LangGraph Framework</h2>
-      <p>LangGraph provides a powerful framework for creating multi-agent conversations where different AI agents can collaborate to solve complex problems.</p>
-      
-      <h2>Building Your First Agent</h2>
-      <p>We'll walk through creating a simple agent that can handle customer service inquiries, escalate to human agents when needed, and maintain conversation context.</p>
     `,
   },
   "deploying-ai-gcp-cicd": {

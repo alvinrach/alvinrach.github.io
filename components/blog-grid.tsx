@@ -5,6 +5,15 @@ import Link from "next/link"
 
 const blogPosts = [
   {
+    slug: "building-agentic-ai-chatbots-langgraph",
+    title: "Building Agentic AI Chatbots with LangGraph",
+    excerpt:
+      "Discover how to design intelligent chatbots that can reason, generate, and execute tasks autonomously using LangGraph, enabling more dynamic and practical AI applications.",
+    date: "August 31, 2025",
+    tags: ["AI Agents", "Chatbots", "LLM"],
+    image: "/ai-chatbot-interface.png",
+  },
+  {
     slug: "hybrid-search-elasticsearch-milvus",
     title: "Building Hybrid Search with ElasticSearch & Milvus",
     excerpt:
@@ -30,15 +39,6 @@ const blogPosts = [
     date: "March 4, 2023",
     tags: ["Future of Work", "AI and Jobs", "Career Development"],
     image: "/ai-never-replace.png",
-  },
-  {
-    slug: "building-agentic-ai-chatbots-langgraph",
-    title: "Building Agentic AI Chatbots with LangGraph",
-    excerpt:
-      "Discover how to design intelligent chatbots that can reason, generate, and execute tasks autonomously using LangGraph, enabling more dynamic and practical AI applications.",
-    date: "February 15, 2024",
-    tags: ["AI Agents", "Chatbots", "LLM"],
-    image: "/ai-chatbot-interface.png",
   },
   {
     slug: "deploying-ai-gcp-cicd",
