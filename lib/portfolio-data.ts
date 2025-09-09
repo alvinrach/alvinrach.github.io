@@ -118,7 +118,7 @@ export const portfolioData = {
     },
     {
       title: "Car Insurance Sales Prediction",
-      description: "Classification with XGBoost (3rd place on DPhi leaderboard)",
+      description: "Classification with XGBoost (3rd place on AI Planet leaderboard)",
       links: {
         github: "https://github.com/alvinrach/21-Car-Insurance-Sales-Prediction",
       },
