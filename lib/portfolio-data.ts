@@ -132,7 +132,7 @@ export const portfolioData = {
   activities: [
     {
       name: "AI Planet – Data Science Bootcamp (3rd place, 2021)",
-      url: "https://aiplanet.com/challenges/74/getting-started-with-data-science-bootcamp-final-assignment74/leaderboard/practice"
+      url: "https://aiplanet.com/challenges/74/getting-started-with-data-science-bootcamp-final-assignment-74/leaderboard/practice"
     },
     {
       name: "AI Planet – Deep Learning Bootcamp (1st place, 2021)",
