@@ -130,11 +130,26 @@ export const portfolioData = {
     },
   ],
   activities: [
-    "AI Planet – RAG & Agents Bootcamp (2024)",
-    "IdCamp (Indosat Ooredoo) – Machine Learning Expert (2021)",
-    "FGA Digital Talent Scholarship – IBM Machine Learning (2021)",
-    "AI Planet – Data Science Bootcamp (3rd place, 2021)",
-    "AI Planet – Deep Learning Bootcamp (1st place, 2021)",
+    {
+      name: "AI Planet – RAG & Agents Bootcamp (2024)",
+      url: "https://aiplanet.com/rag-agents-bootcamp"
+    },
+    {
+      name: "IdCamp (Indosat Ooredoo) – Machine Learning Expert (2021)",
+      url: "https://idcamp.indosatooredoo.com/"
+    },
+    {
+      name: "FGA Digital Talent Scholarship – IBM Machine Learning (2021)",
+      url: "https://digitalent.kominfo.go.id/"
+    },
+    {
+      name: "AI Planet – Data Science Bootcamp (3rd place, 2021)",
+      url: "https://aiplanet.com/data-science-bootcamp"
+    },
+    {
+      name: "AI Planet – Deep Learning Bootcamp (1st place, 2021)",
+      url: "https://aiplanet.com/deep-learning-bootcamp"
+    },
   ],
   leadership: [
     {
