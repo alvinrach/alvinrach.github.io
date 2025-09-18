@@ -132,23 +132,23 @@ export const portfolioData = {
   activities: [
     {
       name: "AI Planet – RAG & Agents Bootcamp (2024)",
-      url: "https://aiplanet.com/rag-agents-bootcamp"
+      url: "https://aiplanet.com/bootcamp/certificate/download/102ac4f6-9516-420a-972b-698616b71bdc/"
     },
     {
       name: "IdCamp (Indosat Ooredoo) – Machine Learning Expert (2021)",
-      url: "https://idcamp.indosatooredoo.com/"
+      url: "https://www.dicoding.com/certificates/QLZ91N4QEP5D"
     },
     {
       name: "FGA Digital Talent Scholarship – IBM Machine Learning (2021)",
-      url: "https://digitalent.kominfo.go.id/"
+      url: "https://drive.google.com/file/d/1P2zuvzQlKs-w71T8yMCdOvf0hD_1g276/view"
     },
     {
       name: "AI Planet – Data Science Bootcamp (3rd place, 2021)",
-      url: "https://aiplanet.com/data-science-bootcamp"
+      url: "https://aiplanet.com/challenges/74/getting-started-with-data-science-bootcamp-final-assignment74/leaderboard/practice"
     },
     {
       name: "AI Planet – Deep Learning Bootcamp (1st place, 2021)",
-      url: "https://aiplanet.com/deep-learning-bootcamp"
+      url: "https://aiplanet.com/challenges/144/gender-determination-by-morphometry-of-eyes-144/leaderboard/practice"
     },
   ],
   leadership: [
