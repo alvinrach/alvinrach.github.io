@@ -54,11 +54,11 @@ export function ActivitiesSection() {
           {portfolioData.activities.map((activity, index) => (
             <div key={index} className="text-sm text-gray-600 flex items-start">
               <span className="w-1.5 h-1.5 bg-yellow-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
-              <a 
-                href={activity.url} 
-                target="_blank" 
+              <a
+                href={activity.url}
+                target="_blank"
                 rel="noopener noreferrer"
-                className="hover:underline text-blue-600"
+                className="text-gray-600 hover:text-blue-600 hover:underline transition-colors"
               >
                 {activity.name}
               </a>
