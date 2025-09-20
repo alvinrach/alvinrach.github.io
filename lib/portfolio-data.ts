@@ -107,16 +107,6 @@ export const portfolioData = {
       },
     },
     {
-      title: "Travelling Salesman Optimizer (FMCG)",
-      description: "Efficient sales routing for 1M+ rows (Python, OSRM, Docker, Jenkins)",
-      links: {},
-    },
-    {
-      title: "Bank Sales Area Optimizer",
-      description: "Unsupervised regrouping + routing (Streamlit, MongoDB, Docker CI/CD)",
-      links: {},
-    },
-    {
       title: "Walmart Stock Prediction",
       description: "Forecasting with ~0.45% MAE (Neural Network)",
       links: {
@@ -129,6 +119,16 @@ export const portfolioData = {
       links: {
         github: "https://github.com/alvinrach/21-Car-Insurance-Sales-Prediction",
       },
+    },
+    {
+      title: "Travelling Salesman Optimizer (FMCG)",
+      description: "Efficient sales routing for 1M+ rows (Python, OSRM, Docker, Jenkins)",
+      links: {},
+    },
+    {
+      title: "Bank Sales Area Optimizer",
+      description: "Unsupervised regrouping + routing (Streamlit, MongoDB, Docker CI/CD)",
+      links: {},
     },
     {
       title: "Chatbot Testing Framework",
