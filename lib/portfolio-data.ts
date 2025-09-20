@@ -93,6 +93,13 @@ export const portfolioData = {
   ],
   projects: [
     {
+      title: "Paylater Default Prediction in Fintech",
+      description: "Paylater default prediction using Gradient Boosting & CRISP-DM Framework",
+      links: {
+        github: "https://github.com/alvinrach/financial-tech-prediction",
+      },
+    },
+    {
       title: "EventCHI",
       description: "AI chatbot + blockchain-powered event-tech platform (LangGraph, Autogen, crewAI, GCP, Azure)",
       links: {
