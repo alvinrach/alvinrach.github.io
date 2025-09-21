@@ -22,12 +22,17 @@ export function ProjectsGrid() {
           <p className="text-sm text-gray-600 mb-4 leading-relaxed">{project.description}</p>
 
           <div className="flex gap-2">
-            {project.links.github && (
+            {project.links.github ? (
               <Button size="sm" variant="outline" asChild>
                 <Link href={project.links.github} target="_blank">
                   <Github className="w-4 h-4 mr-1" />
                   Code
                 </Link>
+              </Button>
+            ) : (
+              <Button size="sm" variant="outline" disabled className="opacity-50 cursor-not-allowed">
+                <Github className="w-4 h-4 mr-1" />
+                Code
               </Button>
             )}
             {project.links.details ? (
