@@ -100,17 +100,17 @@ export const portfolioData = {
       },
     },
     {
-      title: "EventCHI",
-      description: "AI chatbot + blockchain-powered event-tech platform (LangGraph, Autogen, crewAI, GCP, Azure)",
-      links: {
-        details: "https://chi.app/",
-      },
-    },
-    {
       title: "Walmart Stock Prediction",
       description: "Forecasting with ~0.45% MAE (Neural Network)",
       links: {
         github: "https://github.com/alvinrach/25-Time_Series-Stock_Prediction",
+      },
+    },
+    {
+      title: "EventCHI",
+      description: "AI chatbot + blockchain-powered event-tech platform (LangGraph, Autogen, crewAI, GCP, Azure)",
+      links: {
+        details: "https://chi.app/",
       },
     },
     {
