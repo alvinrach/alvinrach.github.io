@@ -100,6 +100,13 @@ export const portfolioData = {
       },
     },
     {
+      title: "BBC News Sentiment Analysis",
+      description: "End-to-end ML pipeline (training + FastAPI inference + Docker deployment + torch-tensorflow comparation). Includes fetch API for real-time predictions.",
+      links: {
+        github: "https://github.com/alvinrach/learn-ai-bbc",
+      },
+    },
+    {
       title: "Walmart Stock Prediction",
       description: "Forecasting with ~0.45% MAE (Neural Network)",
       links: {
