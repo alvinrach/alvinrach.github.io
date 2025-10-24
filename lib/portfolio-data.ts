@@ -10,7 +10,7 @@ export const portfolioData = {
     // website: "https://alvinrach.github.io",
   },
   about:
-    "Machine Learning Engineer with strong experience in AI chatbots, LLM fine-tuning, financial & forecasting data science, & cloud deployment. Passionate about building scalable AI platforms and intelligent systems as well as the data analytics.",
+    "Alvin has 4+ years of experience in data & AI. He has worked in startups (Chatbot & Retrieval Engine, Crypto AI), IT research labs, & corporate environments (Financial Sector), giving him a broad perspective on data team operations across various environments & fields.\nHis stack spans from Data Science (PyTorch, Scikit-learn, MongoDB, SQL), LLM frameworks (LangChain, LlamaIndex, LangGraph) to daily cloud operations and analytical dashboards. Although experienced with diverse tools, he believes that technology stacks are merely instruments to solve real problems.",
   skills: [
     "AI Agents",
     "LLM",
