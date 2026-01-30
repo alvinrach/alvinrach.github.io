@@ -10,7 +10,7 @@ export const portfolioData = {
     // website: "https://alvinrach.github.io",
   },
   about:
-    "Alvin has 4+ years of experience in data & AI. He has worked in startups (Chatbot & Retrieval Engine, Crypto AI), IT research labs, & corporate environments (Financial Sector), giving him a broad perspective on data team operations across various environments & fields.\nHis stack spans from Data Science (PyTorch, Scikit-learn, MongoDB, SQL), LLM frameworks (LangChain, LlamaIndex, LangGraph) to daily cloud operations and analytical dashboards. Although experienced with diverse tools, he believes that technology stacks are merely instruments to solve real problems.",
+    "Alvin has 5+ years of experience in data & AI. He has worked in startups (Chatbot & Retrieval Engine, Crypto AI), IT research labs, & corporate environments (Financial Sector), giving him a broad perspective on data team operations across various environments & fields.\nHis stack spans from Data Science (PyTorch, Scikit-learn, MongoDB, SQL), LLM frameworks (LangChain, LlamaIndex, LangGraph) to daily cloud operations and analytical dashboards. Although experienced with diverse tools, he believes that technology stacks are merely instruments to solve real problems. He now works at Artefact, one of the world's leading data science consulting firms.",
   skills: [
     "AI Agents",
     "LLM",
@@ -36,9 +36,20 @@ export const portfolioData = {
   interests: ["AI Agents", "Generative AI", "Blockchain-Socmed", "Cloud Architecture"],
   experience: [
     {
+      company: "Artefact Consulting Singapore Pte Ltd",
+      role: "Data Scientist",
+      dates: "11/25 – Now",
+      details: [
+        "Handling AI RAG and Evaluation Systems for a Top-Tier Indonesian Commercial Bank (BUKU IV)",
+        "Develop AI and collaborate with stakeholders and engineers within client and consultant team",
+        "Responsible for RAG systems and LLM evaluation for a leading Indonesian BUKU IV bank",
+        "Collaborate with regional and multicountry consulting teams across data science and business functions to deliver values to client",
+      ],
+    },
+    {
       company: "Foru AI / Untukmu.ai",
       role: "Machine Learning Engineer",
-      dates: "09/23 – Now",
+      dates: "09/23 – 11/25",
       details: [
         "Developed AI chatbots with LLMs, including fine-tuning BERT and LLaMA for domain-specific tasks",
         "Created and deployed an AI Testing Framework in Streamlit to validate chatbot responses efficiently",
