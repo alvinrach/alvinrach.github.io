@@ -32,6 +32,19 @@ export function ExperienceSection() {
                     </li>
                   ))}
                 </ul>
+                {exp.engagements?.map((engagement, engagementIndex) => (
+                  <div key={engagementIndex} className={engagementIndex > 0 ? "mt-3" : undefined}>
+                    <p className="text-sm font-medium text-gray-800 mb-1">{engagement.location}</p>
+                    <ul className="space-y-1">
+                      {engagement.details.map((detail, detailIndex) => (
+                        <li key={detailIndex} className="text-sm text-gray-600 flex items-start">
+                          <span className="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                          {detail}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

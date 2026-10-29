@@ -1,16 +1,17 @@
 export const portfolioData = {
   name: "Alvin Rachmat",
   title: "Machine Learning Engineer / Data Scientist",
-  location: "Indonesia",
+  location: "Abu Dhabi, UAE",
   contact: {
-    phone: "+6285214888118",
+    phoneID: "+6285214888118",
+    phoneUAE: "+971502140290",
     email: "alvinracht@gmail.com",
     linkedin: "https://www.linkedin.com/in/alvin-rachmat",
     github: "https://github.com/alvinrach",
     // website: "https://alvinrach.github.io",
   },
   about:
-    "Alvin has 5+ years of experience in data & AI. He has worked in startups (Chatbot & Retrieval Engine, Crypto AI), IT research labs, & corporate environments (Financial Sector), giving him a broad perspective on data team operations across various environments & fields.\nHis stack spans from Data Science (PyTorch, Scikit-learn, MongoDB, SQL), LLM frameworks (LangChain, LlamaIndex, LangGraph) to daily cloud operations and analytical dashboards. Although experienced with diverse tools, he believes that technology stacks are merely instruments to solve real problems. He now works at Artefact, one of the world's leading data science consulting firms.",
+    "Alvin has 5+ years of experience in data & AI. He has worked in startups (Chatbot & Retrieval Engine, Crypto AI), IT research labs, corporate environments (Financial Sector), and now consulting at Artefact, one of the world's leading data science consulting firms, delivering banking and government AI projects across the UAE, the Philippines & Indonesia.\nHis stack spans from Data Science (PyTorch, Scikit-learn, MongoDB, SQL), data platforms (Databricks, Snowflake), LLM frameworks (LangChain, LlamaIndex, LangGraph) to daily cloud operations and analytical dashboards. Although experienced with diverse tools, he believes that technology stacks are merely instruments to solve real problems.",
   skills: [
     "AI Agents",
     "LLM",
@@ -31,6 +32,13 @@ export const portfolioData = {
     "Streamlit",
     "Autogen",
     "Faceswap",
+    "Databricks",
+    "Snowflake",
+    "Entity Resolution (Splink)",
+    "RAG Evaluation",
+    "Speech-to-Text (Whisper)",
+    "Redis",
+    "Geospatial (Folium, Google Maps API, OSRM)",
   ],
   languages: ["English", "Bahasa Indonesia"],
   interests: ["AI Agents", "Generative AI", "Blockchain-Socmed", "Cloud Architecture"],
@@ -39,11 +47,32 @@ export const portfolioData = {
       company: "Artefact Consulting Singapore Pte Ltd",
       role: "Data Scientist",
       dates: "11/25 – Now",
-      details: [
-        "Handling AI RAG and Evaluation Systems for a Top-Tier Indonesian Commercial Bank (BUKU IV)",
-        "Develop AI and collaborate with stakeholders and engineers within client and consultant team",
-        "Responsible for RAG systems and LLM evaluation for a leading Indonesian BUKU IV bank",
-        "Collaborate with regional and multicountry consulting teams across data science and business functions to deliver values to client",
+      details: [],
+      engagements: [
+        {
+          location: "Abu Dhabi, UAE (On-Site)",
+          details: [
+            "Maintaining data governance workflows for the Abu Dhabi Department of Government Enablement through LLM-assisted rule generation & quality checks across ~800 datasets",
+            "Built an entity resolution & deduplication pipeline using Splink's unsupervised probabilistic record linkage to match and merge citizen records across government tables, enriching incomplete records (e.g. backfilling missing emails via shared national ID)",
+            "Built an LLM-powered remediation agent on Databricks using LangChain that scans tables against governance rules and generates proposed corrections as output tables for steward review",
+          ],
+        },
+        {
+          location: "Philippines (On-Site)",
+          details: [
+            "Sales leads (PoS) optimization project with RCBC Bank (5th largest private bank in the Philippines), using Snowflake, Google Maps API, and geospatial visualization (Folium) to identify and prioritize high-potential business locations",
+            "Built data-driven lead scoring and mapping solutions, including Shortest Route Problem & Clustering, enabling commercial teams to improve targeting efficiency and on-ground execution to 70% lead acceptance rate",
+            "Leveraged AI heavily (Claude Code, Cursor, Databricks Genie, Snowflake Cortex) to improve project delivery speed without sacrificing quality, validating all AI output through hands-on review",
+          ],
+        },
+        {
+          location: "Indonesia (On-Site)",
+          details: [
+            "Delivered end-to-end AI solutions (Speech-to-Text, RAG, LLM evaluation) for CIMB Bank (2nd largest private bank in Indonesia by assets), to support customer service transformation",
+            "Architected a RAG pipeline on Speech-to-Text outputs and owned the evaluation strategy, improving precision from 20% to 70% and recall from 20% to 85%, achieved NPS of 50% among CS agents",
+            "Stack: Whisper, LangChain, Elasticsearch (hybrid retrieval), Redis, FastAPI",
+          ],
+        },
       ],
     },
     {
@@ -104,6 +133,13 @@ export const portfolioData = {
   ],
   projects: [
     {
+      title: "Dewi – AI Gifting Chatbot",
+      description: "Rebuilt & self-hosted (2026) version of the Untukmu.ai gifting chatbot",
+      links: {
+        details: "https://dewi.alvinrach.my.id",
+      },
+    },
+    {
       title: "Paylater Default Prediction in Fintech",
       description: "Paylater default prediction using Gradient Boosting & CRISP-DM Framework",
       links: {
@@ -155,6 +191,18 @@ export const portfolioData = {
     },
   ],
   activities: [
+    {
+      name: "Google Cloud Skill Badge – Evaluate & Improve ADK Agents (2026)",
+      url: "https://www.credly.com/badges/5d37b9a9-04dd-48c7-9fa3-ed86543b1310"
+    },
+    {
+      name: "Google Cloud Skill Badge – Deploy an Agent with ADK (2026)",
+      url: "https://www.credly.com/badges/173b7306-f970-4bd1-983f-bcf946736f13"
+    },
+    {
+      name: "Google Cloud Skill Badge – Accelerate Development with Antigravity (2026)",
+      url: "https://www.credly.com/badges/48508f2a-4344-4ce7-b2dd-44d50264f16b"
+    },
     {
       name: "AI Planet – Data Science Bootcamp (3rd place, 2021)",
       url: "https://aiplanet.com/challenges/74/getting-started-with-data-science-bootcamp-final-assignment-74/leaderboard/practice"
